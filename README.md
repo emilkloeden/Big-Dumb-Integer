@@ -48,13 +48,31 @@ console.log(c.toString()); // '2'
 #### .abs()
 Takes any accepted input and returns a new Big object with the sign 'POSITIVE'. This means it is currently broken for Zero but that bug is required by **.subtract()**.
 
-#### .add()
+#### .add(input)
 Takes any accepted input adds it to the current Big object and returns a new Big object.
+
+#### .eq(input)
+Takes any accepted input and returns `true` if equal to current object or `false` otherwise.
+
+#### .gt(input)
+Takes any accepted input and returns `true` if the current object is the greater of the two.
+
+#### .gte(input)
+Takes any accepted input and returns `true` if the current object is greater than or equal to the input value.
+
+#### .invert()
+Invert Big.**.sign** (multiplies by -1).
 
 #### .listify()
 Converts a Big object to an array. Not especially useful.
 
-#### .minus()
+#### .lt()
+Takes any accepted input and returns `true` if the current object is the lesser of the two.
+
+#### .lte(input)
+Takes any accepted input and returns `true` if the current object is less than or equal to the input value.
+
+#### .minus(input)
 Alias for **.subtract()**
 
 #### .multiply(input)
@@ -66,15 +84,15 @@ Converts a Big object to a number. Likely to be buggy, not yet tested with large
 #### .toString()
 Converts a Big object to a String.
 
-#### .plus()
+#### .plus(input)
 Alias for **.add()**.
 
-#### .subtract()
+#### .subtract(input)
 Takes any accepted input, subtracts it from the current object and returns a new Big object.
 
-#### .take()
+#### .take(input)
 Alias for **.subtract()**
 
 #### .trimLeadingZeroes()
-A helper method that removes any leading zeroes from Big.number. Used in **.subtract()** and **.multiply()** methods.
+A helper method that removes any leading zeroes from **Big.number**. Used in **.subtract()** and **.multiply()** methods.
 
