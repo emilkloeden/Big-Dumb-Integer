@@ -1,0 +1,24 @@
+{
+  "name": "Big-Dumb-Integer",
+  "version": "0.0.1",
+  "description": "A dumb arbitrary precision maths library built to help me with Project Euler problems and node development. DON'T USE IT, there are much better altenatives.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emilkloeden/Big-Dumb-Integer"
+  },
+  "keywords": [
+    "arbitrary",
+    "precision",
+    "bigint"
+  ],
+  "author": "Emil Kloeden <emilkloeden@gmail.com> (https://github.com/emilkloeden/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emilkloeden/Big-Dumb-Integer/issues"
+  },
+  "homepage": "https://github.com/emilkloeden/Big-Dumb-Integer"
+}
