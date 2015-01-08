@@ -1,5 +1,5 @@
 {
-  "name": "Big-Dumb-Integer",
+  "name": "bdi",
   "version": "0.0.1",
   "description": "A dumb arbitrary precision maths library built to help me with Project Euler problems and node development. DON'T USE IT, there are much better altenatives.",
   "main": "index.js",
