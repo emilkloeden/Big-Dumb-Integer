@@ -5,13 +5,13 @@ Big Dumb Integer (or BDI) is a JavaScript library built as an exercise to allow 
 
 BDI was developed as a learning project to aid with solving Project Euler problems in JavaScript. 
 
-There are other libraries out there that provide arbitrary precision mathematics solutions for users of JavaScript that are smaller, and _much, much_ better. The author recommends Peter Olson's https://github.com/peterolson/BigInteger.js and Silent Matt's http://silentmatt.com/biginteger/ alternatives. They were both highly-used sources of inspiration in the building of this project.
+There are other libraries out there that provide arbitrary precision mathematics solutions for users of JavaScript that are smaller, and _much, much_ better. The author recommends Peter Olson's [BigInteger.js](https://github.com/peterolson/BigInteger.js) and Silent Matt's [biginteger](http://silentmatt.com/biginteger/) alternatives. They were both highly-used sources of inspiration in the building of this project.
 
 ### What it does
 
 BDI stores integers in a 'Big' object and supports comparison, addition, subtraction and multiplication of positive and negative integers in base 10. That's right, as yet, there is no support for division. That's because division tends to lend itself to floating point maths and that stuff is _hard_. Maybe one day, when the next Project Euler problem requires it.
 
-### Calling the library
+### Requiring the library
 ```javascript
 var Big = require('Big-Dumb-Integer').Big;
 ```
