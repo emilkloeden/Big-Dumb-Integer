@@ -66,7 +66,7 @@ Invert Big.**.sign** (multiplies by -1).
 #### .listify()
 Converts a Big object to an array. Not especially useful.
 
-#### .lt()
+#### .lt(input)
 Takes any accepted input and returns `true` if the current object is the lesser of the two.
 
 #### .lte(input)
